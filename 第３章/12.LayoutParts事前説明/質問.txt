@@ -1,0 +1,8 @@
+下記のようになっており、クローンしたデータが紐付いておりません。
+
+fukudaaoi@fukudanoMacBook-Pro PRテック % git remote -v
+origin	git@github.com:fukuda-aoi/report-3.git (fetch)
+origin	git@github.com:fukuda-aoi/report-3.git (push)
+
+保存する場所を変更するなどを試しましたが、変わりありませんでした。
+このまま進めると上手く課題提出できませんでしょうか。

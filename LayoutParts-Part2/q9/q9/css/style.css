@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* カード内の画像は以下のURLを使用して下さい */
+/* https://picsum.photos/id/1005/200/300 */
+
+
+.green{
+  background-color: #76ff826b;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.fadein{
+  animation: fadeIn 4s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+.fadeout {
+  animation: fadeout 4s ease 4s 1 normal;
+}
+
+@keyframes fadeout {
+  100% {opacity: 0}
+  0% {opacity: 1}
+}
+
+.spin {
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(360deg)}
+}
+
+
+次４番からやる
