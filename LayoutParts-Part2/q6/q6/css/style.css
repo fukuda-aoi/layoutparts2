@@ -1,0 +1,41 @@
+@charset "UTF-8";
+nav {
+    background-color: #388bff;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.logo {
+    padding-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.SHOP {
+    color: #f2ff7b;
+}
+
+.right {
+    display: flex;
+    text-align: right;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+}
+
+li {
+    width: 100px;
+    display: block;
+    text-align: right;
+    padding: 30px;
+}
+
+li a {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
