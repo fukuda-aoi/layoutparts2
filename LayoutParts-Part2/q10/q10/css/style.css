@@ -1,1 +1,83 @@
 @charset "UTF-8";
+.flatbtn {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    color: #fff;
+    background: #fd0f0fd9;
+}
+
+.blue {
+    color: #fff;
+    background: #170ffdd9;
+}
+
+.green {
+    color: #000;
+    background: #0ffd0fd9;
+}
+
+.btn {
+    padding: 0 15px;
+    line-height: 50px;
+    margin-left: 30px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.red-shadow {
+    box-shadow: 0 5px 0 rgba(63, 5, 5, 0.851), 0 5px 1px rgba(63, 5, 5, 0.851);
+}
+
+.blue-shadow {
+    box-shadow: 0 5px 0 rgba(5, 13, 63, 0.851), 0 5px 1px rgba(5, 13, 63, 0.851);
+}
+
+.green-shadow {
+    box-shadow: 0 5px 0 rgba(5, 63, 5, 0.851), 0 5px 1px rgba(5, 63, 5, 0.851);
+}
+
+.non:active {
+    transform: translateY(4px);
+    box-shadow: 0px 0px 1px 0px;
+    border-bottom: none;
+}
+
+
+/* 変わるやつ*/
+
+.doubleline {
+    color: #67c5ff;
+    border: 4px double #67c5ff;
+    transition: 0.5s;
+}
+
+.doubleline:hover {
+    background: #fffbef;
+}
+
+.dot {
+    color: #67c5ff;
+    border: 4px dotted #75caff;
+    transition: 0.5s;
+}
+
+.dot:hover {
+    border-style: dashed;
+}
+
+.spuaredot {
+    color: #0079a5f8;
+    background: #d0edfff8;
+    border: 4px dashed #67c5ff;
+    transition: 0.5s;
+}
+
+.spuaredot:hover {
+    color: #67c5ff;
+    background: #ffffff;
+}
