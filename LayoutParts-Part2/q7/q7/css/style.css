@@ -1,36 +1,35 @@
 @charset "UTF-8";
-
-.fukidashi{
-  font-size: 16px;
-  line-height: 16px;
-  background: #fad296;
-  border: solid 5px #815a0a;
-  width: 500px;
-  padding: 20px;
-  border-radius: 30px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
+.fukidashi {
+    font-size: 16px;
+    line-height: 16px;
+    background: #fad296;
+    border: solid 5px #815a0a;
+    width: 500px;
+    padding: 20px;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
 
-.fukidashi::before{
-  content: "";
-  border: 25px solid transparent;
-  border-top: 25px solid #815a0a;
-  margin-left: -25px;
-  top: 100%;
-  left: 9.3%;
-  position: absolute;
+.fukidashi::before {
+    content: "";
+    border: 25px solid transparent;
+    border-top: 25px solid #815a0a;
+    margin-left: -25px;
+    top: 100%;
+    left: 9.3%;
+    position: absolute;
 }
 
-.fukidashi::after{
-  content: "";
-  border: 25px solid transparent;
-  border-top: 25px solid #fad296;
-  margin-left: -25px;
-  margin-top: -7px;
-  top: 100%;
-  left: 9.3%;
-  position: absolute;
+.fukidashi::after {
+    content: "";
+    border: 25px solid transparent;
+    border-top: 25px solid #fad296;
+    margin-left: -25px;
+    margin-top: -7px;
+    top: 100%;
+    left: 9.3%;
+    position: absolute;
 }
