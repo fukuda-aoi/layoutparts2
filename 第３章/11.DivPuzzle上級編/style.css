@@ -41,16 +41,16 @@
     height: 60px;
     display: flex;
     justify-content: center;
+    background-color: #fff;
 }
 
 .purple-block {
     background-color: #a9004b;
     width: 40px;
     height: 40px;
-    border: 5px solid #fff;
     display: flex;
     float: left;
-    margin: 5px 0;
+    margin: 10px 5px;
 }
 
 .orenge {
@@ -67,4 +67,8 @@
     display: flex;
     justify-content: top;
     margin: 0 0 10px 0;
+}
+
+.orenge-block:last-child {
+    margin: 0;
 }
